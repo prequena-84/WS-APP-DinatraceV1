@@ -1,0 +1,31 @@
+.status {
+    font-size: 24px;
+    font-weight: bold;
+}
+.success {
+    color: green;
+}
+.failure {
+    color: red;
+}
+.result {
+    margin-top: 20px;
+    font-size: 14px;
+    white-space: pre-wrap; /* Para mantener el formato de JSON */
+}
+table {
+    width: 80%; /* Ajustar el ancho de la tabla */
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto; /* Centrar la tabla */
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+#resultados tr:nth-child(1)
